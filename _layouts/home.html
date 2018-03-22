@@ -1,24 +1,19 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>My sport Blog on Jekyll</title>
+        <title>{{ site.title }}</title>
     
     
     </head>
     <body>
         <div class="header">
-        <header>
-    My sport Blog on Jekyll
-    <h1>A great blog</h1>
-
-
-</header>
+        {% include header.html %}
         </div>
         <Section>
         <p>This is a post section</p>
-            
-                Welcome to Jekyll!
-            
+            {% for post in site.posts %}
+                {{ post.title }}
+            {% endfor %}
         </Section>
        
     
