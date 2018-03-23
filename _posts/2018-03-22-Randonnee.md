@@ -1,7 +1,8 @@
 ---
 title: Journee-estivale
 date: 2018-03-22 00:00:00 Z
-categories: Post
+categories:
+- Post
 extract: Une randonnée à la journée, prendre l'air et profiter de la nature
 ---
 

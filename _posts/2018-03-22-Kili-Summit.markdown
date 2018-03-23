@@ -1,7 +1,8 @@
 ---
 title: Kili-Summit
 date: 2018-03-22 14:33:38 Z
-categories: Post
+categories:
+- Post
 extract: Une randonnée guidée d'une semaine sur le plus haut sommet d'Afrique. Une
   belle expérience de l'altitude
 ---
