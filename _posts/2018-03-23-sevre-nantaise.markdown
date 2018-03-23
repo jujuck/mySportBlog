@@ -6,4 +6,4 @@ categories:
 extract: Une belle journée pour une randonnée familiale en canoë sur la Sèvre Nantaise
 ---
 
-[Sevre-Nantaise.JPG](/uploads/Sevre-Nantaise.JPG)
+[Sevre-Nantaise.JPG](/assets/images/Sevre-Nantaise.JPG)
