@@ -1,0 +1,8 @@
+ - name: "Richard"
+   firstname: "Julien"
+   occupation: "Student Arinfo"
+   fact: "developpement-web"
+   age: "35"
+   adresse: "3.0 rue du webdeveloppement"
+   zipcode: "85000"
+   ville:  "HTML-CSS"

@@ -1,7 +1,11 @@
 <header>
-    {{ site.title }}
-    <h1>A great blog</h1>
-     
-
-
+    <div class="presentation">
+        <img src="../assets/images/horloge%20plan%C3%A9taire.jpg">
+        {% for people in site.data.profil %}
+            <h2>{{ people.name}}</h2>
+            <h2>{{ people.firstname }}</h2>
+            <p>{{ people.occupation }}</p>
+            <p>{{ people.fact }}</p>
+        {% endfor %}
+    </div>
 </header>
