@@ -1,6 +1,6 @@
 >>Mise en configuration avec leafsite pour les uploads images pour les posts
 >>affichages des posts en page complète
 >>affichage des page en page compète
->>CSS ligne blanche en header
+>> Affichage des posts les plus récents
 >> supprimer le bouton learn more en titre et description.
 >> replacer le footer plus en bas.

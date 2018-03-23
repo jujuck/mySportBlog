@@ -101,14 +101,15 @@ De 960px à 1280px : tablette en paysage, écran d’ordinateur de taille petite
 .presentation {
   text-align: right;
   padding: 10px;
-  border-right: 2px solid black;
+  border-right: 2px solid white;
   color: #fff; }
 
 /* line 17, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_header.scss */
 .img-profil {
   width: 100px;
   height: 100px;
-  border-radius: 100%; }
+  border-radius: 100%;
+  border: 2px solid white; }
 
 /* line 1, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_footer.scss */
 footer {
@@ -116,7 +117,7 @@ footer {
   margin: 5px;
   position: fixed;
   left: 0px;
-  top: 500px;
+  top: 550px;
   text-align: center;
   color: #fff; }
 
@@ -180,6 +181,6 @@ body {
   float: right;
   background-color: #e3e3e3;
   padding-top: 25px;
-  opacity: 0.8; }
+  opacity: 0.9; }
 
 /*# sourceMappingURL=main.css.map */
