@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: My sport Blog on Jekyll
 email: sportBlog@sport.com
-description: >- # this means to ignore newlines until "baseurl:"
-  This is a awesome Blog about sport and Nature. But most important, it is a plain exercice on mastering Jekyll. 
+description: This is a awesome Blog about sport and Nature. But most important, it is a plain exercice on mastering Jekyll. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
