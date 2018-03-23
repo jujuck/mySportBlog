@@ -1,1 +1,5 @@
 <p>this is the part where blog post would deploy</p>
+<p>This is a post section</p>
+            {% for post in site.posts %}
+                <li>{{ post.title }}</li>
+            {% endfor %}

@@ -1,7 +1,40 @@
+/* line 1, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_blog.scss */
+.post-section {
+  margin: 10px; }
+
+/* line 1, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_header.scss */
+.header {
+  width: 30%;
+  margin: 5px;
+  height: 500px;
+  float: left;
+  border: 2px solid black; }
+
+/* line 1, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_footer.scss */
+footer {
+  width: 30%;
+  margin: 5px;
+  border: 2px solid black;
+  float: left; }
+
+/* line 1, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_contact.scss */
+.contact-section {
+  margin: 10px; }
+
 /* line 9, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/main.scss */
 body {
   background-image: url("../assets/images/raquette.JPG");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0; }
+
+/* line 17, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/main.scss */
+.main-content {
+  height: 100%;
+  width: 65%;
+  float: right;
+  background-color: #fff;
+  border: 1px solid black; }
 
 /*# sourceMappingURL=main.css.map */

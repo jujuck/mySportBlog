@@ -10,4 +10,14 @@ body {
     background-image: url('../assets/images/raquette.JPG');
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    height: 100%;
+    width: 65%;
+    float: right;
+    background-color: #fff;
+    border: 1px solid black;
 }

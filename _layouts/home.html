@@ -10,20 +10,18 @@
         <div class="header">
         {% include header.html %}
         </div>
-        <Section>
-        <p>This is a post section</p>
-            {% for post in site.posts %}
-                <li>{{ post.title }}</li>
-            {% endfor %}
-            <div class="blog">
-            {% include blog.html %}
-            </div>
-        </Section>
-        <section>
-            <div class="contact">
-            {% include contact.html %}
-            </div>
-        </section>
+        <div class="main-content">
+            <Section class="post-section">
+                <div class="blog">
+                {% include blog.html %}
+                </div>
+            </Section>
+            <section class="contact-section">
+                <div class="contact">
+                {% include contact.html %}
+                </div>
+            </section>
+        </div>
        <footer>
             <div class="footer">
             {% include footer.html %}
