@@ -1,0 +1,13 @@
+//import site specific styles
+@import "blog";
+@import "header";
+@import "footer";
+@import "contact";
+@import "page";
+@import "post";
+
+body {
+    background-image: url('../assets/images/raquette.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

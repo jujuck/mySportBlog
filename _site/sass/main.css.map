@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "file": "main.css",
+  "sources": [
+    "main.scss",
+    "_blog.scss",
+    "_header.scss",
+    "_footer.scss",
+    "_contact.scss",
+    "_page.scss",
+    "_post.scss"
+  ],
+  "mappings": ";AAQA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,oCAAG;EACrB,eAAe,EAAE,KAAM;EACvB,iBAAiB,EAAE,SAAU,GAChC",
+  "names": []
+}

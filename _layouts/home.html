@@ -2,6 +2,7 @@
     <head>
         <meta charset="UTF-8">
         <title>{{ site.title }}</title>
+        <link rel="stylesheet"href="sass/main.css">
     
     
     </head>
@@ -14,8 +15,21 @@
             {% for post in site.posts %}
                 <li>{{ post.title }}</li>
             {% endfor %}
+            <div class="blog">
+            {% include blog.html %}
+            </div>
         </Section>
-       
+        <section>
+            <div class="contact">
+            {% include contact.html %}
+            </div>
+        </section>
+       <footer>
+            <div class="footer">
+            {% include footer.html %}
+            </div>
+        
+        </footer>
     
     </body>
 
