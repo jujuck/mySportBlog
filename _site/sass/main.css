@@ -26,7 +26,7 @@
     justify-content: space-around; } }
 
 /*Description pour les écrans tablette en paysage page accueil*/
-@media all and (max-width: 680px) {
+@media all and (max-width: 1000px) {
   /* line 33, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_blog.scss */
   #container {
     margin-top: 50px;
@@ -101,7 +101,24 @@ footer {
 
 /* line 1, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_contact.scss */
 .contact-section {
-  margin: 10px; }
+  margin-top: 25px; }
+
+/* line 6, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_contact.scss */
+.part-left {
+  float: left;
+  width: 300px;
+  margin: 25px; }
+
+/* line 12, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_contact.scss */
+.part-right {
+  float: right;
+  width: 350px;
+  margin: 25px; }
+
+/* line 18, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_contact.scss */
+.form-control {
+  width: 350px;
+  height: 100px; }
 
 /* line 9, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/main.scss */
 body {
