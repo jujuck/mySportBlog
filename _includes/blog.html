@@ -10,7 +10,7 @@
         <img src="../assets/images/{{ post.title }}.jpg" class="img-post-presentation">
             <br>
         <p>{{ post.extract }}</p>
-        <button class="btn-post" href="#">Learn more</a>
+            <button class="btn-post"><a href="{{ post.url }}">Learn more</a></button>
         </div>
     {% endfor %}
 </div>

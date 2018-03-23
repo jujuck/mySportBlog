@@ -1,7 +1,7 @@
 ---
 title:  "Kili-Summit"
 date:   2018-03-22 15:33:38 +0100
-categories: Randonne
+categories: Randonnee
 extract: "Une randonnée guidée d'une semaine sur le plus haut sommet d'Afrique. Une belle expérience de l'altitude"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
