@@ -2,5 +2,3 @@
 >>affichages des posts en page complète
 >>affichage des page en page compète
 >> Affichage des posts les plus récents
->> supprimer le bouton learn more en titre et description.
->> replacer le footer plus en bas.

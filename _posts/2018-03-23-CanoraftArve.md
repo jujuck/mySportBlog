@@ -1,8 +1,7 @@
 ---
 title: Canoeraft
 date: 2018-03-23 00:00:00 Z
-categories:
-- Canoe
+categories: Post
 extract: Une descente de l'Arve, rivière mythique du Mont Blanc en cano-raft.Ici le
   passage du pont de Passy.
 ---
