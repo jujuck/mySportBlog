@@ -6,4 +6,4 @@ extract: "Une descente de l'Arve, rivière mythique du Mont Blanc en cano-raft.I
 
 Descente en canoraft sur l'Arve
 
-![Canoe, Arve]({{"assets/image/Canoeraft.jpg" | absolute.url}})
+![Canoe, Arve]({{"assets/image/Canoeraft.jpg" | absolute_url}})

@@ -1,1 +1,6 @@
-<p>This is a footer</p>
+
+{% for post in site.pages %}
+    {% if post.title %}
+    <button class="btn-footer">{{ post.title }}</button>
+    {% endif %}
+{% endfor %}

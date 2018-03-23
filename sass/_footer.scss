@@ -1,6 +1,33 @@
 footer {
     width: 30%;
     margin: 5px;
-    float: left;
+    position: fixed;
+    left: 0px;
+    top: 550px;
     text-align: center;
+    color: #fff;
+}
+
+.btn-footer,
+.btn-footer:focus, 
+.btn-footer:active, 
+.btn-footer:visited 
+{
+    padding : 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #f3461A;
+    font-size: 18px;
+    font-weight: 350;
+    border: 1px solid #f3461A;
+    background-color: #fff;
+     transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.btn-footer:hover {
+    color: #fff;
+    background-color: #f3461A;
 }

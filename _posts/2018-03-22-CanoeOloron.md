@@ -6,4 +6,4 @@ extract: "Descente sportive en canoë biplace du gave d'Oloron, puisssant et tec
 
 Canoë Biplace sur la gave d'Oloron
 
-![Canoe, Oloron]({{"assets/image/Canoe-Oloron.jpg" | absolute.url}})
+![Canoe, Oloron]({{"assets/image/Canoe-Oloron.jpg" | absolute_url}})

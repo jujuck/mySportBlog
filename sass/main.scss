@@ -8,18 +8,18 @@
 
 body {
     background-image: url('../assets/images/Raft-Giffre.JPG');
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
-    background-position: 40% 70%;
+    background-attachment: fixed;
+    background-position: 70% 25%;
     margin: 0;
-    padding: 0;
-        
+    padding: 0;       
 }
 
 .main-content {
     width: 65%;
     float: right;
     background-color: #e3e3e3;
-    padding-top: 100px;
+    padding-top: 25px;
     opacity: 0.8;
 }
