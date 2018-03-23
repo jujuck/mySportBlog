@@ -6,4 +6,4 @@ categories:
 extract: une randonnée à la journée par le coté sud, Une vue sur le MontBlanc imprenable.
 ---
 
-[Joux Plane (1).JPG](/uploads/Joux%20Plane%20(1).JPG)
+[Joux Plane (1).JPG](/uploads/Joux-Plane.jpg)
