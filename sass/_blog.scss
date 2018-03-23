@@ -18,7 +18,7 @@
 		display : grid;
 		grid-gap: 2px;
 		grid-template-columns: repeat(2, 320px);
-		grid-template-rows: repeat(2, 320px);
+		grid-template-rows: repeat(2, 470px);
 		grid-auto-flow: row;
 		text-align: center;
 		align-content: center;
@@ -35,7 +35,7 @@
 		display : grid;
 		grid-gap: 5px;
 		grid-template-columns: 320px;
-		grid-template-rows: repeat(6, 320px);
+		grid-template-rows: repeat(6, 470px);
 		grid-auto-flow: row;
 		align-content: center;
 		align-items: center;
@@ -54,29 +54,45 @@ De 960px à 1280px : tablette en paysage, écran d’ordinateur de taille petite
 /*Description des block Jeux*/
 .post-presentation {
 	width: 300px;
-	height: 300px;
+	height: 450px;
 	text-align: center;
-	border: 2px solid black;
+	box-shadow: 0 5px 5px 0 #a3a3a3;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+    background-color: #fff;
 	font-family : cursive;
 	color: black;
 	border-radius: 5px;
 }
 
-/*.go {
-	width : 50px;
-	height: 25px;
-	border-color: 1px solid black;
-	border-radius: 5px;
+.btn-post,
+.btn-post:focus, 
+.btn-post:active, 
+.btn-post:visited 
+{
+    padding : 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #f3461A;
+    font-size: 18px;
+    font-weight: 350;
+    border: 1px solid #f3461A;
+    background-color: transparent;
+     transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
 }
 
-.go:hover {
-	width: 55px;
-	height: 28px;
-	-webkit-transition : 0.2s;
-	color : blue;
+.btn-post:hover {
+    color: #fff;
+    background-color: #f3461A;
 }
 
-*/
+.img-post-presentation {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}

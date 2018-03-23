@@ -7,7 +7,10 @@
     {% for post in site.posts %}
         <div class="post-presentation">
         <h1>{{ post.title }}</h1>
-        <a href="#">Learn more</a>
+        <img src="../assets/images/{{ post.title }}.jpg" class="img-post-presentation">
+            <br>
+        <p>{{ post.extract }}</p>
+        <button class="btn-post" href="#">Learn more</a>
         </div>
     {% endfor %}
 </div>
