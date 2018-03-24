@@ -16,6 +16,7 @@ defaults:
     layout: post
     author: Julien
     permalink: "/:categories/:title"
+
 email: sportBlog@sport.com
 description: This is a awesome Blog about sport and Nature. But most important, it
   is a plain exercice on mastering Jekyll.
