@@ -11,11 +11,17 @@
         {% include header.html %}
         </div>
         <div class="main-content">
-            <h1>This is a post</h1>
-
-            {{ post.title }}
-            {{ content }}
             
+            {{ post.title }}
+            <div class="post-item">
+            {{ content }}
+            </div>
+           {% for post in site.posts %}
+                <div class="post-icon">
+                <h1>{{ post.title }}</h1>
+                   <a href="{{ post.url }}" class="btn-post-icon">Learn more</a>
+                </div>
+            {% endfor %}
             <section class="contact-section">
                 <div class="contact">
                 {% include contact.html %}

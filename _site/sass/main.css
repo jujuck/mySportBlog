@@ -1,4 +1,22 @@
 @charset "UTF-8";
+/* line 1, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/main.scss */
+body {
+  background-image: url("../uploads/Raft-Giffre.JPG");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 70% 25%;
+  margin: 0;
+  padding: 0; }
+
+/* line 11, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/main.scss */
+.main-content {
+  width: 65%;
+  float: right;
+  background-color: #e3e3e3;
+  padding-top: 25px;
+  opacity: 0.9; }
+
 /* line 1, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_blog.scss */
 .titre-description {
   text-align: center;
@@ -169,22 +187,17 @@ footer {
   width: 350px;
   height: 100px; }
 
-/* line 9, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/main.scss */
-body {
-  background-image: url("../uploads/Raft-Giffre.JPG");
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 70% 25%;
-  margin: 0;
-  padding: 0; }
+/* line 1, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_post.scss */
+.post-item {
+  margin: 25px 35px 50px 35px;
+  text-align: center; }
 
-/* line 19, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/main.scss */
-.main-content {
-  width: 65%;
-  float: right;
-  background-color: #e3e3e3;
-  padding-top: 25px;
-  opacity: 0.9; }
+/* line 6, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_post.scss */
+img {
+  height: 250px;
+  border: 1px solid white;
+  border-radius: 6px;
+  margin-bottom: 25px;
+  margin-top: 25px; }
 
 /*# sourceMappingURL=main.css.map */
