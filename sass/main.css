@@ -71,17 +71,19 @@ De 960px à 1280px : tablette en paysage, écran d’ordinateur de taille petite
   font-weight: 350;
   border: 1px solid #f3461A;
   background-color: transparent;
+  text-decoration: none;
   transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
   -webkit-transition: all 1s; }
 
-/* line 88, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_blog.scss */
+/* line 89, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_blog.scss */
 .btn-post:hover {
   color: #fff;
-  background-color: #f3461A; }
+  background-color: #f3461A;
+  text-decoration: underline; }
 
-/* line 93, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_blog.scss */
+/* line 95, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_blog.scss */
 .img-post-presentation {
   width: 200px;
   height: 200px;
@@ -134,15 +136,17 @@ footer {
   font-weight: 350;
   border: 1px solid #f3461A;
   background-color: #fff;
+  text-decoration: none;
   transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
   -webkit-transition: all 1s; }
 
-/* line 30, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_footer.scss */
+/* line 31, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_footer.scss */
 .btn-footer:hover {
   color: #fff;
-  background-color: #f3461A; }
+  background-color: #f3461A;
+  text-decoration: underline; }
 
 /* line 1, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_contact.scss */
 .contact-section {

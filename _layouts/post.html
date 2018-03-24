@@ -1,7 +1,39 @@
-<h1>This is a post</h1>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ site.title }}</title>
+        <link rel="stylesheet"href="../sass/main.css">
+    
+    
+    </head>
+    <body>
+        <div class="header">
+        {% include header.html %}
+        </div>
+        <div class="main-content">
+            <h1>This is a post</h1>
 
-{{ post.title }}
-{{ content }}
+            {{ post.title }}
+            {{ content }}
+            
+            <section class="contact-section">
+                <div class="contact">
+                {% include contact.html %}
+                </div>
+            </section>
+        </div>
+       <footer>
+            <div class="footer">
+            {% include footer.html %}
+            </div>
+        
+        </footer>
+    
+    </body>
+
+
+
+</html>
     
     
 

@@ -79,6 +79,7 @@ De 960px à 1280px : tablette en paysage, écran d’ordinateur de taille petite
     font-weight: 350;
     border: 1px solid #f3461A;
     background-color: transparent;
+    text-decoration: none;
      transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
@@ -88,6 +89,7 @@ De 960px à 1280px : tablette en paysage, écran d’ordinateur de taille petite
 .btn-post:hover {
     color: #fff;
     background-color: #f3461A;
+    text-decoration: underline;
 }
 
 .img-post-presentation {
