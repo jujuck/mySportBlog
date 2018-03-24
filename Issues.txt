@@ -1,4 +1,4 @@
->>Mise en configuration avec leafsite pour les uploads images pour les posts
 >>affichages des posts en page complète
 >>affichage des page en page compète
->> Affichage des posts les plus récents
+>> Affichage des posts les plus récents (6max)
+>>Affichage d'un bouton + de plus et mise en place d'un espace
