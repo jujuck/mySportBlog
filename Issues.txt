@@ -1,4 +1,4 @@
->>affichages des posts en page complète
+>> Création de flèches pour naviguer de doite à gauche entre les posts
 >>affichage des page en page compète
 >> Affichage des posts les plus récents (6max)
->>Affichage d'un bouton + de plus et mise en place d'un espace
+>> Création d'un espace date, author dans chaque post
