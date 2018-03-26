@@ -35,9 +35,9 @@ body {
   #container {
     margin-top: 50px;
     display: grid;
-    grid-gap: 2px;
+    grid-gap: 5px;
     grid-template-columns: repeat(2, 320px);
-    grid-template-rows: repeat(2, 470px);
+    grid-template-rows: repeat(2, 480px);
     grid-auto-flow: row;
     text-align: center;
     align-content: center;
@@ -51,7 +51,7 @@ body {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 320px;
-    grid-template-rows: repeat(6, 470px);
+    grid-template-rows: repeat(6, 480px);
     grid-auto-flow: row;
     align-content: center;
     align-items: center;
@@ -65,7 +65,7 @@ De 960px à 1280px : tablette en paysage, écran d’ordinateur de taille petite
 /* line 55, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_blog.scss */
 .post-presentation {
   width: 300px;
-  height: 450px;
+  height: 475px;
   text-align: center;
   box-shadow: 0 5px 5px 0 #a3a3a3;
   background-size: cover;
@@ -106,7 +106,9 @@ De 960px à 1280px : tablette en paysage, écran d’ordinateur de taille petite
   width: 200px;
   height: 200px;
   border: 2px solid black;
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 /* line 1, /home/julien/Documents/Webdev-exo/Arinfo/mySportBlog/sass/_header.scss */
 .header {
