@@ -2,3 +2,7 @@
 >>affichage des page en page compète
 >> Affichage des posts les plus récents (6max)
 >> Création d'un espace date, author dans chaque post
+
+
+Version finale : modification des chemins depuis index.html d'origine (Site)
+Attention: bundle ecrase les chemins dès nouvel enregistrement (bundle exec)
