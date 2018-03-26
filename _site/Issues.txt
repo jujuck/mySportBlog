@@ -1,4 +1,4 @@
->>Mise en configuration avec leafsite pour les uploads images pour les posts
->>affichages des posts en page complète
+>> Création de flèches pour naviguer de doite à gauche entre les posts
 >>affichage des page en page compète
->> Affichage des posts les plus récents
+>> Affichage des posts les plus récents (6max)
+>> Création d'un espace date, author dans chaque post

@@ -1,7 +1,46 @@
----
-layout: wrapper
----
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ site.title }}</title>
+        <link rel="stylesheet"href="../sass/main.css">
+    
+    
+    </head>
+    <body>
+ 
 
-<h1>This is a post</h1>
+        <div class="main-content">
+            {{ post.title }}
+            <div class="post-item">
+                {{ content }}
+            </div>
+            <div id="container-post">
+                {% for post in site.posts %}
+                    <div class="post-icon">
+                    <h5>{{ post.title }}</h5>
+                       <a href="{{ post.url }}" class="btn-post-icon">Learn more</a>
+                    </div>
+                {% endfor %}
+            </div>
+            <section class="contact-section">
+                <div class="contact">
+                    {% include contact.html %}
+                </div>
+            </section>
+        </div>
+       <footer>
+            <div class="footer">
+            {% include footer.html %}
+            </div>
+        
+        </footer>
+    
+    </body>
 
-{{ content }}
+
+
+</html>
+    
+    
+
+

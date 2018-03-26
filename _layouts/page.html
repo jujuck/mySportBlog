@@ -11,17 +11,12 @@
         {% include header.html %}
         </div>
         <div class="main-content">
-            <Section class="post-section">
-                <div class="blog">
-                {% include blog.html %}
-                </div>
-            </Section>
+             {{ content }}
             <section class="contact-section">
                 <div class="contact">
                 {% include contact.html %}
                 </div>
             </section>
-            {{ content }}
         </div>
        <footer>
             <div class="footer">

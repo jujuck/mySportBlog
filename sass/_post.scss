@@ -1,0 +1,129 @@
+.post-item {
+    margin : 25px 35px 50px 35px;
+    text-align: center;
+}
+
+img {
+    height: 250px;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+//Mise en place des espaces blogs avec grid
+@media all {
+	#container-post {
+		margin-top: 50px;
+		display : grid;
+		grid-gap: 2px;
+		grid-template-columns: repeat(6, 110px);
+		grid-template-rows: repeat(2, 110px);
+		grid-auto-flow: row;
+		text-align: center;
+		align-content: center;
+		justify-content: space-around;
+	}
+}
+
+/*Description pour les écrans tablette en paysage page accueil*/
+@media all and (max-width: 800px) {
+	#container-post{
+		margin-top: 25px;
+		display : grid;
+		grid-gap: 5px;
+		grid-template-columns: repeat (4, 110px);
+		grid-template-rows: repeat(2, 110px);
+		grid-auto-flow: row;
+		align-content: center;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+}
+
+/*Description pour les écrans tablette en paysage page accueil*/
+@media all and (max-width: 600px) {
+	#container-post{
+		margin-top: 25px;
+		display : grid;
+		grid-gap: 5px;
+		grid-template-columns: repeat (2, 70px);
+		grid-template-rows: repeat(4, 70px);
+		grid-auto-flow: row;
+		align-content: center;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+}
+
+/*Description pour les écrans tablette en paysage page accueil*/
+@media all and (max-width: 1000px) {
+	#container-post {
+		margin-top: 25px;
+		display : grid;
+		grid-gap: 5px;
+		grid-template-columns: 110px;
+		grid-template-rows: repeat(6, 110px);
+		grid-auto-flow: row;
+		align-content: center;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+}
+
+
+
+/*Jusqu’à 479px : smartphone en portrait
+De 480px à 959px : smartphone en paysage, tablette en portrait et petite tablette en paysage
+De 960px à 1280px : tablette en paysage, écran d’ordinateur de taille petite et moyenne
+1281px et au delà : grand écran d’ordinateur (21″ et + en plein écran )*/
+
+/*Description des block Jeux*/
+.post-icon {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	box-shadow: 0 5px 5px 0 #a3a3a3;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-color: #fff;
+	font-family : cursive;
+	color: black;
+	border-radius: 5px;
+}
+
+.btn-post-icon,
+.btn-post-icon:focus, 
+.btn-post-icon:active, 
+.btn-post-icon:visited 
+{
+    padding : 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #f3461A;
+    font-size: 12px;
+    font-weight: 100;
+    border: 1px solid #f3461A;
+    background-color: transparent;
+    text-decoration: none;
+     transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.btn-post:hover {
+    color: #fff;
+    background-color: #f3461A;
+    text-decoration: underline;
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: 100;
+    font-family: fantasy;
+}
